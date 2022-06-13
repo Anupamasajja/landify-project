@@ -1,0 +1,457 @@
+.footer{
+    /* Footer / Mini / 6 */
+
+
+width: 1440px;
+height: 280px;
+
+/* Default / Black */
+
+background: #0B0D17;
+
+/* Inside auto layout */
+
+flex: none;
+order: 8;
+flex-grow: 0;
+}
+.leftsection{
+    /* Left Section */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 489px;
+height: 168px;
+left: 165px;
+top: 56px;
+
+}
+.logomark{
+    /* Logomark / Color */
+
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.links{
+    /* Links */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 489px;
+height: 64px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.row1{
+    /* Links Row 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 199px;
+height: 26px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+.download{
+    /* Download Now */
+
+
+width: 116px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.license{
+    /* License */
+
+
+width: 59px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.row2{
+    /* Links Row 2 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 489px;
+height: 26px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+.about{
+    /* About */
+
+
+width: 46px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.features{
+    /* Features */
+
+
+width: 67px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.pricing{
+    /* Pricing */
+
+
+width: 52px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.carrers{
+    /* Careers */
+
+
+width: 61px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.help{
+    /* Help */
+
+
+width: 36px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.privatepolicy{
+    /* Privacy Policy */
+
+
+width: 107px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.content{
+    /* © 2020 Landify UI Kit. All rights reserved */
+
+
+width: 274px;
+height: 24px;
+
+/* Body / Body 2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 300 */
+
+color: #D9DBE1;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.badges{
+    /* Download Badges */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 160px;
+height: 140px;
+left: 1115px;
+top: 56px;
+
+}
+.content1{
+    /* Get the App */
+
+
+width: 160px;
+height: 28px;
+
+/* Subtitle / Subtitle 2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 300 */
+
+color: #D9DBE1;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.badge1{
+    /* Download Badge / App Store Badge */
+
+
+width: 135px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.badge2{
+    /* Download Badge / Google Play Badge */
+
+
+width: 135px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
