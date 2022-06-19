@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 165px;
+    gap: 30px;
+    width: 1440px;
+    height: 335px;
+    top:2575px;
+    padding:80px, 165px, 80px, 165px;
+    gap:30px;
+}
+.sectionHeading{
+    width: 540px;
+    height: 128px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 65px;
+}
+.sectionTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 540px;
+    height: 128px;
+}
+.description{
+    width: 540px;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:black;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+}
+.counts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 540px;
+    height: 172px;
+    top: 80px;
+    left: 735px;
+    gap: 40px;                
+}
+.rowOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: 540px;
+    height: 65px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 255px;
+    height: 65px;
+}
+.icon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    top:10px;
+    padding: 10px;
+}
+.number{
+    width: 190px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.deatils{
+    width: 190px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+.icon2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    top:10px;
+    padding: 8;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    width: 255px;
+    height: 65px;
+}
+.icon3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    top:10px;
+    padding: 10px;
+}
+.icon4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    top:10px;
+    padding: 10px;
+}
+.rowTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    top: 105px;
+    gap: 30px;
+    width: 540px;
+    height: 65px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    width: 255px;
+    height: 65px;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 255px;
+    height: 65px;
+}
