@@ -1,295 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .cta {
-    /* CTA / 6 */
-
     width: 1440px;
-    height: 491px;
-
-    /* Brand / Turquoise */
-
+    height: 490px;
+    top: 4280px;
     background: #2EC5CE;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 7;
-    flex-grow: 0;
 }
 
-.phonemockup1 {
-    /* Phone Mockup 1 */
-
+.phoneMockup2 {
     position: absolute;
-    width: 232px;
-    height: 464px;
-    left: 779px;
-    top: -93px;
-
-    /* Mobile Mockup Shadow */
-
-    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
-}
-
-.phonemockup2 {
-    /* Phone Mockup 2 */
-
-    position: absolute;
-    width: 232px;
-    height: 464px;
-    left: 1043px;
+    width: 230px;
+    height: 465px;
+    left: 1045px;
     top: 88px;
-
-    /* Mobile Mockup Shadow */
-
-    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
 }
 
-.ctacontent {
-/* Content */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 48px;
-
-position: absolute;
-width: 540px;
-height: 356px;
-left: 165px;
-top: calc(50% - 356px/2 + 0.5px);
+.ctaScreen2 {
+    position: absolute;
+    width: 200px;
+    height: 440px;
+    left: 15px;
+    top: 15px;
 }
 
-.ctamessage {
-/* CTA Message */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 540px;
-height: 232px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
+.iphoneX2 {
+    position: absolute;
+    width: 230px;
+    height: 465px;
 }
 
-.ctasectionheading {
-/* Section Heading */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 540px;
-height: 232px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.phoneMockup1 {
+    position: absolute;
+    width: 230px;
+    height: 465px;
+    top: -15px;
+    left: 780px;
 }
 
-.ctasectionheading2 {
-/* Section Heading */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 540px;
-height: 128px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.ctaScreen1 {
+    position: absolute;
+    width: 200px;
+    height: 440px;
+    left: 15px;
+    top: 15px;
 }
 
-h2 {
-/* Section Title */
-
-
-width: 540px;
-height: 128px;
-
-/* Heading / H2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 64px;
-/* or 133% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.iphoneX1 {
+    position: absolute;
+    width: 230px;
+    height: 465px;
+    top: 15px;
 }
 
-p {
-/* Description */
-
-width: 540px;
-height: 96px;
-
-/* Lead / Lead 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+.content {
+    position: absolute;
+    width: 540px;
+    height: 356px;
+    left: 165px;
+    top: 70px;
+    gap: 50px;
 }
 
-.gettheapp {
-    /* Get the App */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 282px;
-    height: 76px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: flex-start;
-    flex-grow: 0;
+.ctaMessage {
+    width: 540px;
+    height: 230px;
+    gap: 10px;
 }
 
-.label {
-    width: 104px;
-    height: 28px;
-
-    /* Subtitle / Subtitle 2 */
-
+.sectionHeading {
+    width: 540px;
+    height: 130px;
     font-family: 'Inter';
-    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.description {
+    position: absolute;
+    width: 540px;
+    height: 95px;
+    top: 135px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.getTheApp {
+    position: absolute;
+    width: 280px;
+    height: 75px;
+    top: 280px;
+    gap: 10px;
+}
+
+.subTitle {
+    width: 105px;
+    height: 30px;
+    font-family: 'Inter';
     font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    /* identical to box height, or 156% */
-
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-
-    color: #18191F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: flex-start;
-    flex-grow: 0;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .badges {
-    /* Badges */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
-    width: 282px;
+    position: absolute;
+    width: 280px;
     height: 40px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
+    top: 35px;
+    gap: 15px;
 }
 
-.google-play-badge {
-    /* Download Badge / Google Play Badge */
-
-
+.googlePlay {
+    position: absolute;
     width: 135px;
     height: 40px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.app-store-badge {
-    /* Download Badge / App Store Badge */
-
-
+.appStore {
+    position: absolute;
     width: 135px;
     height: 40px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    left: 145px;
 }
