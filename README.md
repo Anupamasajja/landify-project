@@ -1,2 +1,2 @@
 # landify-project
-Repository fror Landify Project
+Repository for Landify Project
