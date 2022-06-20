@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featureSingle_5 {
+    width: 1440px;
+    height: 670px;
+    top: 2910px;
+    padding: 64px 165px 64px 165px;
+    gap: 30px;
+}
+
+.phoneMockup {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 165px;
+    top: 65px;
+    background: #F1E4FF;
+    background-image: "../images/BG.png";
+}
+
+.iphoneX {
+    position: absolute;
+    width: 360px;
+    height: 720px;
+    left: 90px;
+    top: 55px;
+}
+
+.screen {
+    position: absolute;
+    width: 315px;
+    height: 680px;
+    left: 115px;
+    top: 75px;
+}
+
+.content {
+    position: absolute;
+    width: 540px;
+    height: 300px;
+    top: 185px;
+    left: 735px;
+    padding: 0px 50px 0px 50px;
+    gap: 30px;
+}
+
+.heading {
+    width: 445px;
+    height: 55px;
+    left: 50px;
+    font: inter;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #18191F;
+}
+
+.description {
+    width: 445px;
+    height: 160px;
+    left: 50px;
+    top: 90px;
+    font: inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #18191F;
+    padding-top: 30px;
+}
+
+.getStartedButton {
+    width: 120px;
+    height: 25px;
+    top: 280px;
+    left: 50px;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.getStartedLabel {
+    width: 90px;
+    height: 25px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #8C30F5;
+}
+
+.rightArrow{
+    width: 25px;
+    height: 15px;
+    top: 5px;
+}
