@@ -1,170 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.stats{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 80px 165px;
-    gap: 30px;
+
+.stats {
     width: 1440px;
     height: 335px;
-    top:2575px;
-    padding:80px, 165px, 80px, 165px;
-    gap:30px;
+    top: 2575px;
+    padding: 80px 165px;
+    gap: 30px;
+    padding: 80px, 165px, 80px, 165px;
+    gap: 30px;
 }
-.sectionHeading{
+
+.sectionHeading {
     width: 540px;
-    height: 128px;
+    height: 170px;
+    top: 80px;
+    left: 165px;
+    Gap:10px;
+}
+
+.sectionTitle {
+    width: 540px;
+    height: 130px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 65px;
 }
-.sectionTitle{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
+
+.description {
     width: 540px;
-    height: 128px;
-}
-.description{
-    width: 540px;
-    height: 32px;
+    height: 30px;
+    top: 135px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color:black;
-    font-weight: 400;
-    size: 20px;
+    font-size: 20px;
     line-height: 30px;
 }
-.counts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+
+.counts {
+    position: absolute;
     width: 540px;
-    height: 172px;
+    height: 175px;
     top: 80px;
     left: 735px;
-    gap: 40px;                
+    gap: 40px;
 }
-.rowOne{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
+
+.rowOne {
     width: 540px;
     height: 65px;
+    gap: 30px;
 }
-.one{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 16px;
+
+.columnOne {
+    position: absolute;
     width: 255px;
     height: 65px;
+    gap: 15px;
 }
-.icon1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    width: 50px;
-    height: 50px;
-    top:10px;
-    padding: 10px;
+
+.icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
 }
-.number{
+
+.details {
+    position: absolute;
+    width: 190px;
+    height: 65px;
+    left: 65px;
+}
+
+.number {
     width: 190px;
     height: 40px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
 }
-.deatils{
+
+.label {
     width: 190px;
     height: 25px;
+    top: 40px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
 }
-.icon2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    width: 50px;
-    height: 50px;
-    top:10px;
-    padding: 8;
-}
-.two{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 15px;
+
+.columnTwo {
+    position: absolute;
     width: 255px;
     height: 65px;
+    left: 285px;
+    gap: 15px;
 }
-.icon3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    width: 50px;
-    height: 50px;
-    top:10px;
-    padding: 10px;
-}
-.icon4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    width: 50px;
-    height: 50px;
-    top:10px;
-    padding: 10px;
-}
-.rowTwo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    top: 105px;
-    gap: 30px;
+
+.rowTwo {
+    position: absolute;
     width: 540px;
     height: 65px;
-}
-.three{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 15px;
-    width: 255px;
-    height: 65px;
-}
-.four{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 16px;
-    width: 255px;
-    height: 65px;
+    top: 105px;
+    gap: 30px;
 }
