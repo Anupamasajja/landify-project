@@ -1,457 +1,185 @@
-.footer{
-    /* Footer / Mini / 6 */
-
-
-width: 1440px;
-height: 280px;
-
-/* Default / Black */
-
-background: #0B0D17;
-
-/* Inside auto layout */
-
-flex: none;
-order: 8;
-flex-grow: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.leftsection{
-    /* Left Section */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-position: absolute;
-width: 489px;
-height: 168px;
-left: 165px;
-top: 56px;
-
+.footer {
+    width: 1440px;
+    height: 280px;
+    top: 4770px;
+    background: #0B0D17;
 }
-.logomark{
-    /* Logomark / Color */
 
-
-width: 32px;
-height: 32px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.leftSection {
+    position: absolute;
+    width: 490px;
+    height: 170px;
+    top: 55px;
+    left: 165px;
+    gap: 25px;
 }
-.links{
-    /* Links */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-
-width: 489px;
-height: 64px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.logo {
+    width: 30px;
+    height: 30px;
 }
-.row1{
-    /* Links Row 1 */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 24px;
-
-width: 199px;
-height: 26px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: flex-start;
-flex-grow: 0;
+.links {
+    position: absolute;
+    width: 490px;
+    height: 65px;
+    top: 55px;
+    gap: 15px;
 }
-.download{
-    /* Download Now */
 
-
-width: 116px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.linkRow1 {
+    width: 200px;
+    height: 25px;
+    gap: 25px;
 }
-.license{
-    /* License */
 
-
-width: 59px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.labelDownloadNow {
+    width: 115px;
+    height: 25px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.row2{
-    /* Links Row 2 */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 24px;
-
-width: 489px;
-height: 26px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: center;
-flex-grow: 0;
+.labelLicense {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 140px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.about{
-    /* About */
 
-
-width: 46px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
+.linkRow2 {
+    position: absolute;
+    width: 490px;
+    height: 25px;
+    top: 40px;
+    gap: 25px;
 }
-.features{
-    /* Features */
 
-
-width: 67px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.labelAbout {
+    width: 45px;
+    height: 25px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.pricing{
-    /* Pricing */
 
-
-width: 52px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
+.labelFeatures {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 70px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.carrers{
-    /* Careers */
 
-
-width: 61px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
+.labelPricing {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 160px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.help{
-    /* Help */
 
-
-width: 36px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 4;
-flex-grow: 0;
+.labelCareers {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 240px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.privatepolicy{
-    /* Privacy Policy */
 
-
-width: 107px;
-height: 26px;
-
-/* Body / Body 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Default / White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 5;
-flex-grow: 0;
+.labelHelp {
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    left: 320px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.content{
-    /* © 2020 Landify UI Kit. All rights reserved */
 
-
-width: 274px;
-height: 24px;
-
-/* Body / Body 2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 300 */
-
-color: #D9DBE1;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-
+.labelPrivacyPolicy {
+    position: absolute;
+    width: 110px;
+    height: 25px;
+    left: 380px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
-.badges{
-    /* Download Badges */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-position: absolute;
-width: 160px;
-height: 140px;
-left: 1115px;
-top: 56px;
-
+.copyright {
+    position: absolute;
+    width: 275px;
+    height: 25px;
+    top: 90px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #D9DBE1;
 }
-.content1{
-    /* Get the App */
 
-
-width: 160px;
-height: 28px;
-
-/* Subtitle / Subtitle 2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 300 */
-
-color: #D9DBE1;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.badges {
+    position: absolute;
+    width: 160px;
+    height: 140px;
+    left: 1115px;
+    top: 55px;
+    gap: 15px;
 }
-.badge1{
-    /* Download Badge / App Store Badge */
 
-
-width: 135px;
-height: 40px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.subTitle {
+    width: 160px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D9DBE1;
 }
-.badge2{
-    /* Download Badge / Google Play Badge */
 
+.appStore {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    top: 45px;
+}
 
-width: 135px;
-height: 40px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
+.googlePlay {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    top: 100px;
 }
