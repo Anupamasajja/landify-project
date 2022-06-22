@@ -1,762 +1,275 @@
-.testimonial{
-    /* Testimonial / 7 */
-
-
-width: 1440px;
-height: 896px;
-
-/* Brand / Turquoise 100 */
-
-background: #D5FAFC;
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.sectionheading{
-    /* Section Heading */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-position: absolute;
-width: 445px;
-height: 168px;
-left: 260px;
-top: 120px;
-
+.testimonial {
+    width: 1440px;
+    height: 895px;
+    top: 1680px;
+    background-color: #D5FAFC;
 }
-.sectionheading1{
-    /* Section Heading */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 445px;
-height: 128px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-.heading{
-    /* Section Title */
-
-
-width: 445px;
-height: 128px;
-
-/* Heading / H2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 64px;
-/* or 133% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.description{
-    /* Description */
-
-
-width: 445px;
-height: 32px;
-
-/* Lead / Lead 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* identical to box height, or 178% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-}
-.testimonial3{
-    /* Testimonial 3 */
-
-
-    /* Auto layout */
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 32px;
-    gap: 32px;
-    
+.sectionHeading {
+    width: 445px;
+    height: 170px;
+    left: 260px;
+    top: 120px;
+    gap: 10px;
     position: absolute;
+}
+
+.sectionTitle {
+    width: 445px;
+    height: 130px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.description {
+    position: absolute;
+    width: 445px;
+    height: 30px;
+    top: 135px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.testimonial3 {
     width: 350px;
-    height: 468px;
+    height: 470px;
     left: 355px;
-    top: 312px;
-    
-    /* Default / White */
-    
-    background: #FFFFFF;
-    /* Dark Shadow */
-    
-    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-    border-radius: 8px;
-    
-}
-.hubspotlogo{
-    /* Hubspot Logo */
-
-
-width: 140px;
-height: 40px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.content{
-    /* Content */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 286px;
-height: 332px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    top: 310px;
+    padding: 30px;
+    gap: 35px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FFFFFF;
 }
 
-.quotemark{
-    /* Quote Mark */
-
-
-width: 16px;
-height: 14px;
-
-opacity: 0.3;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: flex-start;
-flex-grow: 0
+.hubSpotLogo {
+    width: 140px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
 }
-.feedbackpersondetails{
-    /* Feedback & Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 254px;
-height: 332px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: center;
-flex-grow: 0;
+.content3 {
+    width: 285px;
+    height: 330px;
+    top: 105px;
+    left: 30px;
+    gap: 20px;
+    position: absolute;
 }
-.feedback{
-    /* Feedback */
 
-
-width: 254px;
-height: 256px;
-
-/* Lead / Lead 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
+.smallQouteMark {
+    width: 15px;
+    height: 15px;
 }
-.persondetails{
-    /* Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-width: 147px;
-height: 52px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: flex-start;
-flex-grow: 0;
+.feedBackAndDetails3 {
+    width: 255px;
+    height: 330px;
+    left: 30px;
+    gap: 25px;
+    position: absolute;
 }
-.floydmiles{
-    /* Floyd Miles */
 
-
-width: 101px;
-height: 28px;
-
-/* Subtitle / Subtitle 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.feedback3 {
+    width: 255px;
+    height: 255px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
-.vicepresident{
-    /* Vice President, GoPro */
 
-
-width: 147px;
-height: 24px;
-
-/* Lead / Lead 2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 700 */
-
-color: #969BAB;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.details3 {
+    width: 150px;
+    height: 50px;
+    top: 280px;
+    position: absolute;
 }
-.testimonial2{
-    /* Testimonial 2 */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
-gap: 32px;
-
-position: absolute;
-width: 350px;
-height: 276px;
-left: 735px;
-top: 540px;
-
-/* Default / White */
-
-background: #FFFFFF;
-/* Dark Shadow */
-
-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-border-radius: 8px;
+.labelFloydMiles {
+    width: 100px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
-.bokmyshow{
-    /* BookMyShow Logo */
 
-
-width: 134px;
-height: 40px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.labelVicePresidentGoPro {
+    width: 145px;
+    height: 25px;
+    top: 30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #969BAB;
+    position: absolute;
 }
-.content1{
-    /* Content */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 286px;
-height: 140px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.testimonial2 {
+    width: 350px;
+    height: 275px;
+    left: 735px;
+    top: 540px;
+    padding: 30px;
+    gap: 35px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FFFFFF;
 }
-.quotemark1{
-    /* Quote Mark */
 
-
-width: 16px;
-height: 14px;
-
-opacity: 0.3;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: flex-start;
-flex-grow: 0;
+.bookMyShow {
+    width: 135px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
 }
-.feedbackpersondetails1{
-    /* Feedback & Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 254px;
-height: 140px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: center;
-flex-grow: 0;
+.content2 {
+    width: 285px;
+    height: 140px;
+    top: 105px;
+    left: 30px;
+    gap: 20px;
+    position: absolute;
 }
-.feedback1{
-    /* Feedback */
 
-
-width: 254px;
-height: 64px;
-
-/* Lead / Lead 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
+.feedBackAndDetails2 {
+    width: 255px;
+    height: 140px;
+    left: 30px;
+    gap: 25px;
+    position: absolute;
 }
-.persondetails1{
-    /* Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-width: 179px;
-height: 52px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: flex-start;
-flex-grow: 0;
+.feedback2 {
+    width: 255px;
+    height: 65px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
-.krstinwaston{
-    /* Kristin Watson */
 
-
-width: 131px;
-height: 28px;
-
-/* Subtitle / Subtitle 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.details2 {
+    width: 180px;
+    height: 50px;
+    top: 90px;
+    position: absolute;
 }
-.founder{
-    /* Co-Founder, BookMyShow */
 
-
-width: 179px;
-height: 24px;
-
-/* Lead / Lead 2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 700 */
-
-color: #969BAB;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-
+.labelKriston {
+    width: 130px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
-.testimonial1{
-    /* Testimonial 1 */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
-gap: 32px;
-
-position: absolute;
-width: 445px;
-height: 340px;
-left: 735px;
-top: 168px;
-
-/* Default / White */
-
-background: #FFFFFF;
-/* Dark Shadow */
-
-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-border-radius: 8px;
+.labelCofounder {
+    width: 180px;
+    height: 25px;
+    top: 30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #969BAB;
 }
-.airbnb{
-    /* Airbnb Logo */
 
-
-width: 130px;
-height: 40px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.testimonial1 {
+    width: 445px;
+    height: 340px;
+    left: 735px;
+    top: 170px;
+    padding: 30px;
+    gap: 35px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FFFFFF;
 }
-.content2{
-    /* Content */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 381px;
-height: 204px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.airbnb {
+    width: 130px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
 }
-.quotemark2{
-    /* Quote Mark */
 
-
-width: 16px;
-height: 14px;
-
-opacity: 0.3;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.content1 {
+    width: 380px;
+    height: 205px;
+    top: 105px;
+    left: 30px;
+    gap: 20px;
+    position: absolute;
 }
-.feedbackpersondetails2{
-    /* Feedback & Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 349px;
-height: 204px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.feedBackAndDetails1 {
+    width: 350px;
+    height: 205px;
+    left: 30px;
+    gap: 25px;
+    position: absolute;
 }
-.feedback2{
-    /* Feedback */
 
-
-width: 349px;
-height: 128px;
-
-/* Lead / Lead 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.feedback1 {
+    width: 350px;
+    height: 130px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
-.persondetails2{
-    /* Person Details */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-width: 111px;
-height: 52px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.details1 {
+    width: 110px;
+    height: 50px;
+    top: 150px;
+    position: absolute;
 }
-.Janecooper{
-    /* Jane Cooper */
 
-
-width: 114px;
-height: 28px;
-
-/* Subtitle / Subtitle 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.labelCooper {
+    width: 115px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
-.ceo{
-    /* CEO, Airbnb */
 
-
-width: 82px;
-height: 24px;
-
-/* Lead / Lead 2 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-font-feature-settings: 'salt' on, 'liga' off;
-
-/* Text / Gray 700 */
-
-color: #969BAB;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.labelAirbnb {
+    width: 80px;
+    height: 25px;
+    top: 30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #969BAB;
+    position: absolute;
 }
-.bigquotemark{
-    /* Quote Mark */
 
-
-position: absolute;
-width: 143px;
-height: 120px;
-left: 165px;
-top: 64px;
-
-opacity: 0.3;
+.quoteMark {
+    position: absolute;
+    width: 145px;
+    height: 120px;
+    left: 165px;
+    top: 65px;
 }
