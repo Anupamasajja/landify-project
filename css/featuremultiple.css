@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feature {
+    width: 1440px;
+    height: 675px;
+    gap: 50px;
+    top: 1010px;
+    padding: 64px 165px 64px 165px;
+}
+
+.sectionHeading {
+    width: 540px;
+    height: 135px;
+    top: 65px;
+    left: 450px;
+    gap: 10px;
+    position: absolute;
+}
+
+.sectionTitle {
+    width: 540px;
+    height: 65px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.sectionDescription {
+    width: 540px;
+    height: 65px;
+    top: 75px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+.featureList {
+    width: 1110px;
+    height: 360px;
+    top: 250px;
+    left: 165px;
+    gap: 65px;
+    position: absolute;
+}
+
+.row1 {
+    width: 1110px;
+    height: 150px;
+    gap: 30px;
+}
+
+.column1 {
+    width: 350px;
+    height: 150px;
+    gap: 25px;
+}
+
+.featureIcon {
+    width: 30px;
+    height: 30px;
+    left: 160px;
+    position: absolute;
+}
+
+.details {
+    width: 350px;
+    height: 90px;
+    top: 55px;
+    gap: 10px;
+    position: absolute;
+}
+
+.heading {
+    width: 350px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.featureDescription {
+    width: 350px;
+    height: 50px;
+    top: 40px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+}
+
+.column2 {
+    width: 350px;
+    height: 150px;
+    left: 380px;
+    top: 0px;
+    gap: 25px;
+    position: absolute;
+}
+
+.column3 {
+    width: 350px;
+    height: 150px;
+    top: 0px;
+    left: 760px;
+    gap: 25px;
+    position: absolute;
+}
+
+.row2 {
+    width: 1110px;
+    height: 150px;
+    top: 210px;
+    gap: 30px;
+    position: absolute;
+}
