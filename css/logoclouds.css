@@ -1,156 +1,68 @@
-.logoclouds{
-    /* Logo Clouds / 1 */
-
-
-width: 1440px;
-height: 142px;
-
-/* Default / White */
-
-background: #FFFFFF;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.logosection{
-    /* Logos Section */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
-
-position: absolute;
-width: 1110px;
-height: 110px;
-left: 165px;
-top: 16px;
+.logoclouds {
+    width: 1440px;
+    height: 140px;
+    top: 865px;
 }
-.divider{
-    /* Divider */
 
-
-width: 1110px;
-height: 1px;
-
-background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.logos {
+    width: 890px;
+    height: 60px;
+    top: 40px;
+    left: 275px;
+    padding: 16px 0px 16px 0px;
+    gap: 65px;
+    position: absolute;
 }
-.logos{
-    /* Logos */
 
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px 0px;
-gap: 64px;
-
-width: 891px;
-height: 60px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.airbnb {
+    width: 90px;
+    height: 30px;
+    top: 15px;
+    position: absolute;
 }
-.airbnb{
-    /* Airbnb Logo */
 
-
-width: 90px;
-height: 28px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.hubSpot {
+    width: 85px;
+    height: 25px;
+    top: 15px;
+    left: 155px;
+    position: absolute;
 }
-.hubspot{
-    /* Hubspot Logo */
 
-
-width: 84px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.google {
+    width: 85px;
+    height: 25px;
+    top: 15px;
+    left: 300px;
+    position: absolute;
 }
-.google{
-    /* Google Logo */
 
-
-width: 84px;
-height: 28px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
+.microSoft {
+    width: 125px;
+    height: 25px;
+    top: 15px;
+    left: 450px;
+    position: absolute;
 }
-.microsoft{
-    /* Microsoft Logo */
 
-
-width: 122px;
-height: 26px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
+.walmart {
+    width: 110px;
+    height: 25px;
+    top: 15px;
+    left: 635px;
+    position: absolute;
 }
-.walmart{
-    /* Walmart Logo */
 
-
-width: 111px;
-height: 26px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 4;
-flex-grow: 0;
-}
-.fedex{
-    /* FedEx Logo */
-
-
-width: 80px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 5;
-flex-grow: 0;
+.fedex {
+    width: 80px;
+    height: 25px;
+    top: 15px;
+    left: 810px;
+    position: absolute;
 }
