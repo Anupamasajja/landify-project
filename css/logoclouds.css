@@ -10,14 +10,36 @@
     top: 865px;
 }
 
+.logoSection {
+    width: 1110px;
+    height: 110px;
+    top: 15px;
+    left: 165px;
+    gap: 25px;
+    position: absolute;
+}
+
+.dividerTop {
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
 .logos {
     width: 890px;
     height: 60px;
-    top: 40px;
-    left: 275px;
+    top: 25px;
+    left: 110px;
     padding: 16px 0px 16px 0px;
     gap: 65px;
     position: absolute;
+}
+
+.dividerBottom {
+    width: 1110px;
+    height: 1px;
+    top: 110px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
 
 .airbnb {
@@ -65,4 +87,12 @@
     top: 15px;
     left: 810px;
     position: absolute;
+}
+
+.dividerBottom {
+    position: absolute;
+    width: 1110px;
+    height: 1px;
+    top: 110px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
