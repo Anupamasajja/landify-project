@@ -9,6 +9,11 @@
     height: 865px;
 }
 
+.backGround {
+    width: 1440px;
+    height: 865px;
+}
+
 .header {
     width: 1440px;
     height: 70px;
@@ -137,7 +142,7 @@
     position: absolute;
 }
 
-.content {
+.heroContent {
     width: 730px;
     height: 275px;
     left: 165px;
@@ -146,7 +151,7 @@
     position: absolute;
 }
 
-.heading {
+.heroHeading {
     width: 730px;
     height: 200px;
     font-family: 'Inter';
@@ -179,7 +184,7 @@
     color: #FFFFFF;
 }
 
-.phoneMockup {
+.heroPhoneMockup {
     position: absolute;
     width: 350px;
     height: 640px;
@@ -187,22 +192,17 @@
     top: 170px;
 }
 
-.iphonex {
+.heroIphonex {
     width: 320px;
     height: 640px;
     left: 15px;
     position: absolute;
 }
 
-.screen {
+.heroScreen {
     width: 280px;
     height: 605px;
     top: 20px;
     left: 35px;
     position: absolute;
-}
-
-.backGround {
-    width: 1440px;
-    height: 865px;
 }

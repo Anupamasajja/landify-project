@@ -9,6 +9,7 @@
     height: 280px;
     top: 4770px;
     background: #0B0D17;
+    position: absolute;
 }
 
 .leftSection {
@@ -151,7 +152,7 @@
     color: #D9DBE1;
 }
 
-.badges {
+.footerBadges {
     position: absolute;
     width: 160px;
     height: 140px;
@@ -160,7 +161,7 @@
     gap: 15px;
 }
 
-.subTitle {
+.footerSubTitle {
     width: 160px;
     height: 30px;
     font-family: 'Inter';
@@ -170,14 +171,14 @@
     color: #D9DBE1;
 }
 
-.appStore {
+.footerAppStore {
     position: absolute;
     width: 135px;
     height: 40px;
     top: 45px;
 }
 
-.googlePlay {
+.footerGooglePlay {
     position: absolute;
     width: 135px;
     height: 40px;

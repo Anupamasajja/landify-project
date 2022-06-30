@@ -5,9 +5,9 @@
 }
 
 .logoclouds {
-    width: 1440px;
-    height: 140px;
+    height: 1440px;
     top: 865px;
+    position: absolute;
 }
 
 .logoSection {
@@ -42,14 +42,14 @@
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
 
-.airbnb {
+.logocloudsAirbnb {
     width: 90px;
     height: 30px;
     top: 15px;
     position: absolute;
 }
 
-.hubSpot {
+.logocloudsHubSpot {
     width: 85px;
     height: 25px;
     top: 15px;
@@ -57,7 +57,7 @@
     position: absolute;
 }
 
-.google {
+.logocloudsGoogle {
     width: 85px;
     height: 25px;
     top: 15px;
@@ -65,7 +65,7 @@
     position: absolute;
 }
 
-.microSoft {
+.logocloudsMicroSoft {
     width: 125px;
     height: 25px;
     top: 15px;
@@ -73,7 +73,7 @@
     position: absolute;
 }
 
-.walmart {
+.logocloudsWalmart {
     width: 110px;
     height: 25px;
     top: 15px;
@@ -81,7 +81,7 @@
     position: absolute;
 }
 
-.fedex {
+.logocloudsFedex {
     width: 80px;
     height: 25px;
     top: 15px;

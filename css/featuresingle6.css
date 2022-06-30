@@ -10,9 +10,10 @@
     top: 3575px;
     padding: 64px 165px 64px 165px;
     gap: 50px;
+    position: absolute;
 }
 
-.featureDetails {
+.fs6Details {
     position: absolute;
     width: 1110px;
     height: 130px;
@@ -21,7 +22,7 @@
     gap: 30px;
 }
 
-.sectionTitle {
+.fs6Title {
     position: absolute;
     width: 540px;
     height: 110px;
@@ -31,7 +32,7 @@
     line-height: 55px;
 }
 
-.sectionDescription {
+.fs6Description {
     position: absolute;
     width: 540px;
     height: 130px;

@@ -10,6 +10,7 @@
     gap: 50px;
     top: 1010px;
     padding: 64px 165px 64px 165px;
+    position: absolute;
 }
 
 .sectionHeading {
@@ -80,7 +81,7 @@
     position: absolute;
 }
 
-.heading {
+.featureHeading {
     width: 350px;
     height: 30px;
     font-family: 'Inter';
