@@ -1,416 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero {
-    /* Hero / 3 */
-
     width: 1440px;
-    height: 866px;
+    height: 865px;
+}
 
-    /* Default / White */
-
-    background: #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.backGround {
+    width: 1440px;
+    height: 865px;
 }
 
 .header {
-    /* Header / 7 */
-
-    position: absolute;
     width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+    height: 70px;
 }
 
-.leftnav {
-    /* Left Nav */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    position: absolute;
-    width: 567px;
-    height: 28px;
+.leftNav {
+    width: 565px;
+    height: 30px;
+    top: 20px;
     left: 165px;
-    top: calc(50% - 28px/2);
+    gap: 35px;
+    position: absolute;
 }
 
-.leftnavlogo {
-    /* Logotype / Dark */
-
+.dark {
     width: 105px;
-    height: 28px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: flex-start;
-    flex-grow: 0;
+    height: 30px;
 }
 
-.navitems {
-    /* Nav Items */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 32px;
-
+.navItems {
     width: 430px;
     height: 20px;
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
+    top: 5px;
+    left: 135px;
+    gap: 35px;
+    position: absolute;
 }
 
-.menuitems1 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
+.about {
+    width: 40px;
+    height: 20px;
     gap: 10px;
-
-    width: 41px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.menuitems2 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    width: 61px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.menuitems3 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    width: 47px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.menuitems4 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    width: 31px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-}
-
-.menuitems5 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-
-    width: 33px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-}
-
-.menuitems6 {
-    /* Header menu / Default */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 4px;
-
-    width: 57px;
-    height: 20px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 5;
-    flex-grow: 0;
-}
-
-label {
-    /* Label */
-
-    width: 41px;
-    height: 20px;
-
-    /* Label / Medium Label */
-
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-
-    color: #18191F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.rightnav {
-    /* Right Nav */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
-
     position: absolute;
-    width: 282px;
-    height: 40px;
-    right: 165px;
-    top: calc(50% - 40px/2 + 0px);
 }
 
-.downlaodbadgegoogleplay {
-    /* Download Badge / Google Play Badge */
+.products {
+    width: 60px;
+    height: 20px;
+    left: 75px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+}
 
+.pricing {
+    width: 50px;
+    height: 20px;
+    left: 165px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.blog {
+    width: 30px;
+    height: 20px;
+    left: 245px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.jobs {
+    width: 35px;
+    height: 20px;
+    left: 310px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.more {
+    width: 60px;
+    height: 20px;
+    left: 375px;
+    gap: 5px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.chevron {
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 420px;
+    position: absolute;
+}
+
+.rightNav {
+    width: 280px;
+    height: 40px;
+    top: 15px;
+    left: 995px;
+    gap: 15px;
+    position: absolute;
+}
+
+.googlePlayBadge {
     width: 135px;
     height: 40px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.downlaodbadgeappstore {
-    /* Download Badge / App Store Badge */
-
+.appStoreBadge {
     width: 135px;
     height: 40px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    left: 150px;
+    position: absolute;
 }
 
-.content {
-    /* Content */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-
-    position: absolute;
+.heroContent {
     width: 730px;
-    height: 276px;
+    height: 275px;
     left: 165px;
     top: 240px;
+    gap: 35px;
+    position: absolute;
 }
 
-h1 {
-    /* Organise projects. Get more done. */
-
+.heroHeading {
     width: 730px;
-    height: 196px;
-
-    /* Heading/H1 */
-
+    height: 200px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
-    /* or 136% */
-
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-
-    color: #18191F;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    font-size: 70px;
+    line-height: 95px;
 }
 
-button {
-    /* Button */
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 32px;
+.button {
+    width: 155px;
+    height: 50px;
+    top: 230px;
+    border-radius: 5px;
+    border-color: #8C30F5;
+    padding: 12px 32px 12px 32px;
     gap: 10px;
-
-    width: 154px;
-    height: 48px;
-
-    /* Brand / Purple */
-
-    background: #8C30F5;
-    border-radius: 6px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    position: absolute;
+    background-color: #8C30F5;
 }
 
-.phonemockup {
-    /* Phone Mockup */
-    /* Auto layout */
+.getStarted {
+    width: 90px;
+    height: 25px;
+    top: 10px;
+    left: 30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-
+.heroPhoneMockup {
     position: absolute;
     width: 350px;
     height: 640px;
     left: 925px;
-    top: 168px;
+    top: 170px;
 }
 
-.mobileiphonex {
-    /* Mobile / iPhone X */
-
+.heroIphonex {
     width: 320px;
     height: 640px;
-
-    /* Mobile Mockup Shadow */
-
-    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    left: 15px;
+    position: absolute;
 }
 
-.iphonex {
-    /* iPhone X */
-
+.heroScreen {
+    width: 280px;
+    height: 605px;
+    top: 20px;
+    left: 35px;
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: url(../images/iPhone_X.jpg);
-}
-
-.screen {
-    /* Screen */
-
-    position: absolute;
-    left: 6.51%;
-    right: 6.28%;
-    top: 3.02%;
-    bottom: 2.56%;
-
-    background: url(../images/Screen.jpg);
-}
-
-.background {
-    /* Background */
-
-    position: absolute;
-    width: 1440px;
-    height: 866px;
-    left: 0px;
-    top: 0px;
-
-    background-image: url(../images/hero_background.jpg);
 }

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featureSingle-6 {
+    width: 1440px;
+    height: 705px;
+    top: 3575px;
+    padding: 64px 165px 64px 165px;
+    gap: 50px;
+    position: absolute;
+}
+
+.fs6Details {
+    position: absolute;
+    width: 1110px;
+    height: 130px;
+    top: 65px;
+    left: 165px;
+    gap: 30px;
+}
+
+.fs6Title {
+    position: absolute;
+    width: 540px;
+    height: 110px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.fs6Description {
+    position: absolute;
+    width: 540px;
+    height: 130px;
+    left: 570px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.coverImage {
+    position: absolute;
+    width: 1110px;
+    height: 400px;
+    top: 240px;
+    left: 165px;
+    border-radius: 10px;
+}
