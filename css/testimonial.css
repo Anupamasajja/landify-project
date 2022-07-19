@@ -5,7 +5,7 @@
 }
 
 .testimonial {
-    width: 1440px;
+    width: 100%;
     height: 895px;
     top: 1680px;
     background-color: #D5FAFC;
@@ -15,7 +15,7 @@
 .testimonialHeading {
     width: 445px;
     height: 170px;
-    left: 260px;
+    left: 320px;
     top: 120px;
     gap: 10px;
     position: absolute;
@@ -24,7 +24,7 @@
 .testimonialTitle {
     width: 445px;
     height: 130px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 800;
     font-size: 50px;
     line-height: 65px;
@@ -35,7 +35,7 @@
     width: 445px;
     height: 30px;
     top: 135px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -44,7 +44,7 @@
 .testimonial3 {
     width: 350px;
     height: 470px;
-    left: 355px;
+    left: 415px;
     top: 310px;
     padding: 30px;
     gap: 35px;
@@ -86,7 +86,7 @@
 .feedback3 {
     width: 255px;
     height: 255px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -102,7 +102,7 @@
 .labelFloydMiles {
     width: 100px;
     height: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -112,7 +112,7 @@
     width: 145px;
     height: 25px;
     top: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
@@ -123,7 +123,7 @@
 .testimonial2 {
     width: 350px;
     height: 275px;
-    left: 735px;
+    left: 795px;
     top: 540px;
     padding: 30px;
     gap: 35px;
@@ -150,7 +150,7 @@
 }
 
 .feedBackAndDetails2 {
-    width: 255px;
+    width: 260px;
     height: 140px;
     left: 30px;
     gap: 25px;
@@ -158,9 +158,9 @@
 }
 
 .feedback2 {
-    width: 255px;
+    width: 260px;
     height: 65px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -176,7 +176,7 @@
 .labelKriston {
     width: 130px;
     height: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -186,7 +186,7 @@
     width: 180px;
     height: 25px;
     top: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
@@ -196,7 +196,7 @@
 .testimonial1 {
     width: 445px;
     height: 340px;
-    left: 735px;
+    left: 795px;
     top: 170px;
     padding: 30px;
     gap: 35px;
@@ -233,14 +233,14 @@
 .feedback1 {
     width: 350px;
     height: 130px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
 }
 
 .details1 {
-    width: 110px;
+    width: 115px;
     height: 50px;
     top: 150px;
     position: absolute;
@@ -249,7 +249,7 @@
 .labelCooper {
     width: 115px;
     height: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -259,7 +259,7 @@
     width: 80px;
     height: 25px;
     top: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
@@ -271,6 +271,6 @@
     position: absolute;
     width: 145px;
     height: 120px;
-    left: 165px;
+    left: 225px;
     top: 65px;
 }

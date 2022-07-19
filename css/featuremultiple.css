@@ -5,10 +5,11 @@
 }
 
 .feature {
-    width: 1440px;
+    width: 100%;
     height: 675px;
     gap: 50px;
     top: 1010px;
+    left: 40px;
     padding: 64px 165px 64px 165px;
     position: absolute;
 }
@@ -26,7 +27,7 @@
     width: 540px;
     height: 65px;
     gap: 10px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 800;
     font-size: 50px;
     line-height: 65px;
@@ -37,7 +38,7 @@
     width: 540px;
     height: 65px;
     top: 75px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -84,7 +85,7 @@
 .featureHeading {
     width: 350px;
     height: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
@@ -95,7 +96,7 @@
     width: 350px;
     height: 50px;
     top: 40px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
