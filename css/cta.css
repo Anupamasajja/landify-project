@@ -5,7 +5,7 @@
 }
 
 .cta {
-    width: 1440px;
+    width: 100%;
     height: 490px;
     top: 4280px;
     background: #2EC5CE;
@@ -16,7 +16,7 @@
     position: absolute;
     width: 230px;
     height: 465px;
-    left: 1045px;
+    left: 1105px;
     top: 88px;
 }
 
@@ -39,7 +39,7 @@
     width: 230px;
     height: 465px;
     top: -15px;
-    left: 780px;
+    left: 840px;
 }
 
 .ctaScreen1 {
@@ -61,7 +61,7 @@
     position: absolute;
     width: 540px;
     height: 356px;
-    left: 165px;
+    left: 225px;
     top: 70px;
     gap: 50px;
 }
@@ -75,7 +75,7 @@
 .ctaHeading {
     width: 540px;
     height: 130px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 800;
     font-size: 50px;
     line-height: 65px;
@@ -86,7 +86,7 @@
     width: 540px;
     height: 95px;
     top: 135px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -103,7 +103,7 @@
 .ctaSubTitle {
     width: 105px;
     height: 30px;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;

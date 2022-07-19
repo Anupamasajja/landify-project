@@ -5,11 +5,12 @@
 }
 
 .featureSingle_5 {
-    width: 1440px;
+    width: 100%;
     height: 670px;
     padding: 64px 165px 64px 165px;
     gap: 30px;
     top: 2910px;
+    left: 60px;
     position: absolute;
 }
 
@@ -53,7 +54,7 @@
     width: 445px;
     height: 55px;
     left: 50px;
-    font: inter;
+    font: 'Roboto';
     font-weight: 800;
     font-size: 40px;
     line-height: 55px;
@@ -65,7 +66,7 @@
     height: 160px;
     left: 50px;
     top: 90px;
-    font: inter;
+    font: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -85,7 +86,7 @@
 .getStartedLabel {
     width: 90px;
     height: 25px;
-    font-family: inter;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
