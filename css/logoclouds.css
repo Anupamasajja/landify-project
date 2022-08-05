@@ -5,8 +5,9 @@
 }
 
 .logoclouds {
-    height: 1440px;
+    width: 100%;
     top: 865px;
+    left: 50px;
     position: absolute;
 }
 
